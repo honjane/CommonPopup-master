@@ -28,7 +28,7 @@ public class ListDialogFragment extends Fragment implements View.OnClickListener
     static {
         mDatas = new ArrayList<>();
         for (int i = 0; i < 10; i++) {
-            mDatas.add("item" + 1);
+            mDatas.add("item" + i);
         }
     }
 
