@@ -7,4 +7,9 @@
         android:title="dialog popup"
         android:orderInCategory="100"
         app:showAsAction="never"/>
+    <item
+        android:id="@+id/id_list_popup"
+        android:title="list popup"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
 </menu>

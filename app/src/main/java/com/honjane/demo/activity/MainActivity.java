@@ -12,11 +12,13 @@ import android.view.MenuItem;
 
 import com.honjane.demo.R;
 import com.honjane.demo.fragment.DialogFragment;
+import com.honjane.demo.fragment.ListDialogFragment;
 
 public class MainActivity extends AppCompatActivity {
 
     private FragmentManager mFragmentManager;
     private DialogFragment mDialogFragment;
+    private ListDialogFragment mListFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
         mFragmentManager=getSupportFragmentManager();
 
         mDialogFragment = new DialogFragment();
+        mListFragment = new ListDialogFragment();
     }
 
     @Override
@@ -53,6 +56,9 @@ public class MainActivity extends AppCompatActivity {
         switch (item.getItemId()){
             case R.id.id_dialog_popup:
                 mFragmentManager.beginTransaction().replace(R.id.parent,mDialogFragment).commit();
+                break;
+            case R.id.id_list_popup:
+                mFragmentManager.beginTransaction().replace(R.id.parent,mListFragment).commit();
                 break;
             default:
                 break;
