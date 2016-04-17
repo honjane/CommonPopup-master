@@ -75,8 +75,8 @@ etc.
 ```
 
 #sample
-![image](https://github.com/honjane/CommonPopup-master/blob/maste/image/nomal_dialog.png)
-![image](https://github.com/honjane/CommonPopup-master/blob/maste/image/list_popup.png)
+![image](https://github.com/honjane/CommonPopup-master/blob/master/image/nomal_dialog.png)
+![image](https://github.com/honjane/CommonPopup-master/blob/master/image/list_popup.png)
 
 
 #License
